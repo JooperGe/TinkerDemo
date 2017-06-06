@@ -9,4 +9,10 @@ Tinker实践
    4.使用命令行编译newApk：gradle tinkerPatchDebug，编译成功后会在/app/build/outputs/tinkerPatch下生成对应的文件；
    5.注意在MainActivity中load(View v)方法中的加载路径，该路径可以任意修改，最后需要将步骤4中生成的patch_signed_7zip.apk文件拷贝至手机中该路径即可；
    6.安装步骤1中生成的apk并启动，点击load按钮，重启应用，此时页面中间的文字会变为步骤3中修改后的文字。
+
+注意：
+    1.Can't update AndroidManifest.xml, such as add Android Component.
+    2.Do not support some Samsung models with os version android-21.
+    3.Due to Google Play Developer Distribution Agreement, we can't dynamic update our apk.
+
    
