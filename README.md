@@ -1,7 +1,6 @@
 # TinkerDemo
 Tinker实践
 
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?style=flat-square)]()
 ![](https://img.shields.io/badge/language-java-orange.svg)
 ![](https://img.shields.io/badge/platform-android-lightgreen.svg)
     
