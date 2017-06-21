@@ -1,6 +1,8 @@
 # TinkerDemo
 Tinker实践
 
+![](https://img.shields.io/badge/language-java-orange.svg)
+
 实践步骤：
    1.使用AndroidStudio打开项目后，使用命令行编译oldApk：gradle assembleDebug，编译成功后会在/app/build/bakApk下生成对应的文件；
    2.修改app下的build.gradle文件：在ext标签下，将app-release-0605-17-38-15.apk、app-release-0605-17-38-15-mapping.txt、app-release-0605-17-38-15-R.txt
