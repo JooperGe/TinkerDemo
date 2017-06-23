@@ -19,18 +19,3 @@ Tinker实践
  >- Can't update AndroidManifest.xml, such as add Android Component.   
  >- Do not support some Samsung models with os version android-21.   
  >- Due to Google Play Developer Distribution Agreement, we can't dynamic update our apk.
- 
-### shosho
-
-```flow
-st=>start: Begin
-e=>end
-op=>operation: Switch1
-cond=>condition: Yes or No?
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-### 000
